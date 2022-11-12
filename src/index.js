@@ -2,6 +2,8 @@ import * as THREE from 'three';
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { Text } from 'troika-three-text';
 
+import '../manifest.json';
+
 import './index.css';
 
 const scene = new THREE.Scene();
